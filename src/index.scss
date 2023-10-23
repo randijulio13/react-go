@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-primary-800;
+}
+
+.sidebar-item {
+  @apply text-center rounded uppercase tracking-widest text-sm py-4 active:scale-95 active:bg-white active:text-primary-800 text-white duration-200 hover:bg-primary-700;
+}
+
+.sidebar-item.active {
+  @apply bg-white text-primary-800 font-bold;
+}
