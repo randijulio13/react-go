@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiUrl = import.meta.env.VITE_API_BASE_URL;
-const jwtToken = localStorage.getItem("accessItem");
+const jwtToken = localStorage.getItem("accessToken");
 const axiosInstance = axios.create({
   baseURL: apiUrl,
   headers: {
